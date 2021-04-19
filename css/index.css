@@ -49,11 +49,53 @@ table {
 
 * {
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+}
+
+.headernav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex start; 
+    margin: 20px;   
+    padding: 15px 5px 15px 5px;
+    display: block;
+}
+.lambda {
+    position: relative;
+    left: 150px;
+    top: 40px;
+
+}
+
+.topnav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 100px 5px 100px;
+    position: relative;
+    right: 100px;
+
+}
+
+.topnav a {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 30px;
+}
+.topimage {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    position: relative;
+    left: 140px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -73,7 +115,7 @@ p {
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: no wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
@@ -100,7 +142,7 @@ p {
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-
+/**/
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
@@ -125,22 +167,141 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+#finalsentence {
+    display: flex;
+    margin: 10px;
+    right: 580px;
+    position: relative;
+    width: 80%;
+    margin-top: 50px;
+
+}
 
 footer {
-    width: 100%;
+    width: 80%;
     background: black;
+    position: relative;
+    left: 140px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    bottom: 920px;
+    
 }
 
 footer nav {
-    width: 60%;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+ 
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
 }
+#teal {
+    background-color: teal;
+}
+#gold{
+    background-color: gold;
+}
+#cadetblue{
+    background-color: cadetblue;
+}
+#coral{
+    background-color: coral;
+}
+#crimson{
+    background-color: crimson;
+}
+#forestgreen{
+    background-color: forestgreen;
+}
+#darkorchid{
+    background-color: darkorchid;
+}
+#hotpink{
+    background-color: hotpink;
+}
+#indigo{
+    background-color: indigo;
+}
+#dodgerblue{
+    background-color: dodgerblue;
+}
+.firstrow {
+    display: flex;
+    margin: 50px 400px 250px 400px;
+    position: relative;
+    right: 450px;
+    flex-direction: column;
+    width: 55%;
+    height: 50%;
+}
+.
+.secondrow{
+    display: flex;
+    height: 15%;
+    width: 35%;
+    margin: 10px;
+    position: relative;
+    flex-direction: column;
+    left: 50px;
+    bottom: 0px;
+    padding: -20px;
+
+}
+button {
+    height: 40px;
+    width: 150px;
+    border-radius: 5%;
+    background-color: white;
+}
+div {
+    margin: 5px;
+    position: relative;
+    width: 150%;
+}
+.office {
+    position: relative;
+    right: 40px
+    bottom: 250px;
+    width: 80%;
+    margin: 0px;
+}
+
+.bottomleft {
+    position: relative;
+    bottom: 230px;
+    right: 55px;
+    height:230px;
+    width: 450px;
+}
+p {
+    width: 100%;
+}
+.bltext {
+    width: 50%;
+    position: relative;
+    bottom: 220px;
+    right: 60px;
+}
+
+.righttwopics {
+    
+    left: 700px;
+    bottom: 920px;
+   
+}
+
+footer {
+    position: relative;
+    right: 500px;
+}
+nav {
+    font-size: 20px;
+}
+
